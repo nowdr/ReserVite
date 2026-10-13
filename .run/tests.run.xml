@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tests" type="DatabaseScript" focusToolWindowBeforeRun="true">
+    <script-file value="$PROJECT_DIR$/backend/tests/test_01_login.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_02_impersonation.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_03_reset_database.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04_checks.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.00_br_email_unique.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.01_br_check_reservation_client_role_required.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.02_br_reservation_capacity_not_exceeded.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.03_br_check_reservation_table_validity.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.04_br_reservation_within_service_hours.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.05_br_check_reservation_schedule.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.06_br_table_reservation_no_overlap.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.07_br_service_overlap.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.08_br_service_slot_aligned.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.09_br_check_reservation_status.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.10_br_restaurant_has_manager.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.11_br_check_reservation_update.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.12_br_no_tables_for_pending_or_cancelled.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.13_br_check_for_duplicates.sql" />
+    <script-file value="$PROJECT_DIR$/backend/tests/test_04.14_br_reservation_not_in_past.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="6d275bb5-c69c-4f95-bc29-f6a29631655b" namespace="database/&quot;prbd-2526-f01&quot;" />
+    <method v="2" />
+  </configuration>
+</component>
